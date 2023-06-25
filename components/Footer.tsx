@@ -72,6 +72,14 @@ const Footer = () => {
           />
         </div>
       </div>
+      <div className="flexBetween footer_copyright">
+        <p>@ 2023 Nosdaj. All rights reserved.</p>
+        <p className="text-gray">
+          <span className="text-black font-semibold">
+            10.451 projetos armazenados
+          </span>
+        </p>
+      </div>
     </footer>
   );
 };
